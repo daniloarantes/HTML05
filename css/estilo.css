@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+/* Comentário */
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#topo {
+  justify-content: center;
+  border-bottom: 3px solid #F5C6AA;
+  display: flex;
+  align-items: center;
+  height: 20vh;
+  margin-bottom: 20px;
+  background-color: #FDF6F0;
+}
+
+#titulo {
+  color: #F5C6AA;
+  font-family: 'Acme', sans-serif;
+  font-size: 80px;
+}
+
+.box-dicas {
+  background-color: #FDF6F0;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 70vw;
+}
+
+.box-dicas h3 {
+  color: #F5C6AA;
+  font-weight: 700;
+}
+
+.box-dicas h5 {
+  color: #FCD8D4;
+  font-weight: 500;
+}
+
+.box-dicas p {
+  color: #474747;
+  font-weight: 200;
+}
+
+.box-dicas header {
+  margin-bottom: 10px;
+}
